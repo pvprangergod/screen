@@ -15,10 +15,12 @@
   margin: auto;
 }
 </style>
-<audio>
-<audio src="song.mp3">
-<p>If you are reading this, it is because your browser does not support the audio element.     </p>
-</audio>
+<div id="player">
+    <audio controls autoplay hidden>
+     <source src="song.mp3" type="audio/mpeg">
+                If you're reading this, audio isn't supported. 
+    </audio>
+</div>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script type="text/javascript" language="JavaScript">
 function set_body_height() {
