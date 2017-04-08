@@ -28,6 +28,6 @@ $(document).ready(function() {
 </script>
 </head>
 <body>
-<img id="the_pic" class="center fit" src="pic.jpg" >    
+<img id="pic" class="center fit" src="pic.jpg" >    
 </body>
 </html>
