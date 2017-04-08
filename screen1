@@ -15,9 +15,6 @@
   margin: auto;
 }
 </style>
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/XGSy3_Czz8k">
-</iframe>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script type="text/javascript" language="JavaScript">
 function set_body_height() {
@@ -31,6 +28,9 @@ $(document).ready(function() {
 </script>
 </head>
 <body>
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/XGSy3_Czz8k">
+</iframe>
 <img id="pic" class="center fit" src="pic.jpg" >    
 </body>
 </html>
